@@ -1,5 +1,5 @@
 # Implementation of a classifier based on a grid-based clustering algorithm
-This project was supposed to be an implementation of [this paper](https://www.sciencedirect.com/science/article/abs/pii/S1568494620310140); however, due to lack of information on the article about *the grid-based* and *density-based* models and the *divide and merge* method, I used the *clique algorithm*, which is a grid-based clustering algorithm, as my learner.
+Here we are implementing a classifier based on a grid-based clustering algorithm called *clique algorithm*.
 
 ## Clique Algorithm
 The `pyclustering` library provides the implementation of Clique. However, it does not offer any **predict** function to be used in a **classification problem**; therefore, I implemented a wrapper that contains a predict function. The predict function required two things:
